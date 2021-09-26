@@ -9,6 +9,50 @@
 |透明性|对系统和应用程序员|仅对应用程序员|
 |不命中时处理方式|等待主存储器|任务切换|
 ### 1. 基本的工作原理
+<image src = './图片/cache基本工作原理.png' width = 60% style = "border-radius:2%;margin-left:20px">
+
 ### 2. 地址映像与变换方法
+- 地址映像：把主存地址空间映像到Cache地址空间
+  > 把存放在主存中的程序按照某种规则装入到Cache中，并建立主存地址与Cache地址之间的对应关系
+- 地址变换：当程序已经装入到Cache中，在实际运行过程中，把主存地址如何变换成Cache地址
+- 选取地址映像方法考虑的主要因素：
+  - 地址变换的硬件要容易实现
+  - 地址变换的速度要快
+  - 主存空间利用率要高
+  - 发生块冲突的概率要小
+> _地址映像和地址变换都是以块为单位进行调度的_
+1. 全相联映像及其变换
+    - 映像方式
+    
+    <image src = './图片/全相联映像方式.png' width = 60% style = "border-radius:2%;margin-left:30px"> 
+
+    - 地址变换
+      - 主存块号、Cache块号和有效位
+      - 有效位：标记目录表中的各个存储字是否有效
+        <image src = './图片/全相联地址变换.png' width = 70% style = "border-radius:2%;">
+
+    - 优点：块的冲突率最小，Cache的利用率最高
+    - 缺点：需要相联访问速度很快，容量为C<sub>b</sub>的相联存储器，代价高；相联比较所花费的时间将影响Cache的访问速度
+    > 在虚拟存储器中一般采用全相联映像的方式
+
+2. 直接映像及其变换
+   - 映像方式:
+     - 主存中一块只能映射到Cache的特定块中。
+     - <!-- $b = B \ mod \ C_b$ --> <img style="transform: translateY(0.1em); background: white;" src="..\..\svg\pQXk8MZlHr.svg">，其中B为主存的块号，b为Cache的块号，C<sub>b</sub>为Cache的块容量
+    <image src = "./图片/直接映像方式.png" width = 60% style = "border-radius:5%;margin-left:60px">
+
+    > 整个Cache地址与主存地址的低位部分是完全相同的。
+    - 地址变换
+      - 区号存储器：存放主存区号的小容量存储器。通过主存地址中的块号访问区号存储器。\
+      <image src = "./图片/直接映像的地址变换.png" width = 80% style = "border-radius:2%;" >
+    > 通常为了提高Cache的访问速度，可以把区号存储器与Cache合并到同一个存储器上\
+    > <image src = "./图片/快速直接映像的地址变换.png" width = 80% style = "border-radius:2%;margin-left:40px">
+    
+    - 优点：硬件实现简单，访问速度快，不需要地址变换
+    - 缺点：冲突率比较高 
+
+3. 组相联映像及其变换
+4. 位选择组相联映像及其变换
+5. 段相联映像及其变换
 ### 3. Cache替换算法及其实现
 ### 4. Cache的性能分析

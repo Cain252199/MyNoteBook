@@ -141,8 +141,37 @@
   - 栈顶是最近被访问过的块，栈底是最久没有被访问过的块
   - 管理规则：
     - 把本次访问的块号与堆栈中保存所有的块号进行相联比较
-    - 若有相等，则命中。去除堆栈中本次访问的块号，将栈顶到本次访问的块号之间的块号全部下移，在本次访问的块号从栈顶压入。
-    - 若没有相等，则Cache块失效。把栈底块号移除，堆栈内全部块号下移，把访问的块号压入
+    - 若有相等，则命中。去除堆栈中本次访问的块号，将栈顶到本次访问的块号之间的块号全部下移，将本次访问的块号从栈顶压入。
+    - 若没有相等，则Cache块失效。把栈底块号移除，堆栈内全部块号下移，把访问的块号压入栈中
   - 优点：块失效率比较低，硬件实现简单
   - 缺点：速度慢
 ### 4. Cache的性能分析
+1. Cache系统的加速比
+   > 访问周期时间：<!-- $T = H · T_c + (1 - H) · T_m$ --> <img style="transform: translateY(0.1em); background: white;" src="..\..\svg\fZXKYVfmST.svg">\
+   > Cache系统的加速比：<!-- $S_p = \frac{T_m}{T}$ --> <img style="transform: translateY(0.1em); background: white;" src="..\..\svg\PkruNbd21s.svg">
+   > <!-- $S_p = \frac{T_m}{H · T_c + (1 - H) · T_m} = \frac{1}{(1 - H) + H · \frac{T_c}{T_m}}$ --> <img style="transform: translateY(0.1em); background: white;" src="..\..\svg\y6vssDO175.svg" width = 80%> 
+   > <!-- $H为Cache\ 的\ 命\ 中\ 率\ ；T_m 为\ 主\ 存\ 储\ 器\ 的\ 访\ 问\ 周\ 期\ ；T_c 为\ Cache的\ 访\ 问\ 周\ 期$ --> <img style="transform: translateY(0.1em); background: white;" src="..\..\svg\pQCq7oAiYB.svg">
+   > 函数关系为：<!-- $S_p = f({H,\frac{T_m}{T_c}})$ --> <img style="transform: translateY(0.1em); background: white;" src="..\..\svg\swg1q9Vs7e.svg" width = 30%>\
+   > Cache系统中，提高加速比的最好办法是提高命中率
+   
+   - Cache的命中率受程序在执行过程中的地址流分布情况影响
+   - Cache的命中率受替换算法的影响
+   - Cache的命中率受Cache的容量的影响
+     - 命中率随Cache的容量的增加而增加
+     - 关系式近似为<!-- $H = 1-S^{-0.5}$ --> <img style="transform: translateY(0.1em); background: white;" src="..\..\svg\qV8JkUmG4G.svg">
+      <img  src = "./图片/Cache命中率与容量的关系.png" width  = "60%" style = "border-radius:2.5%">
+
+   - Cache的命中率受块大小和分组数量的影响
+     - Cache命中率与块大小的关系
+      <img src = "./图片/Cache命中率与块大小的关系.png" width = "60%" style = "border-radius:2.5%">
+     - Cache命中率与组数的关系
+       - 随着组数的增加，Cache的命中率要降低
+   - Cache的命中率受所采取的预取算法的影响
+    
+2. Cache的一致性问题
+   - 产生Cache与主存的不一致问题的原因
+     - 由于CPU写Cache，把Cache某单元中的内容从X修改成X'，而主存对应单元中的内容还是X，没有改变
+     - 由于输入输出处理机或输入输出设备读入数据到主存储器，修改了主存某单元中的内容，把X修改成X',Cache对应单元中的内容还是X，没有改变\
+      <img src = './图片/Cache与主存不一致的两种情况.png' width = '60%'  style ='border-radius:2.5%'>
+      
+3. Cache的预取算法

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.4">
   <diagram name="第 1 页" id="mjm52S4ERn_6p9qXkVS_">
-    <mxGraphModel dx="1281" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1145" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -486,6 +486,18 @@
             <mxPoint x="760" y="480" as="sourcePoint" />
             <mxPoint x="790" y="480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Wkj2EPc-PZUgWN-kirl0-158" value="0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkj2EPc-PZUgWN-kirl0-159" value="2&lt;sup&gt;32&lt;/sup&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="397" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkj2EPc-PZUgWN-kirl0-161" value="4GB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="377" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkj2EPc-PZUgWN-kirl0-162" value="2&lt;sup&gt;64&lt;/sup&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="97" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

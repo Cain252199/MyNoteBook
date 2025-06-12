@@ -244,6 +244,9 @@
         <mxCell id="Wkj2EPc-PZUgWN-kirl0-83" value="Byte 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1" y="280" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Wkj2EPc-PZUgWN-kirl0-84" value="Generic 3DW Header" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="108" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

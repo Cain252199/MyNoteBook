@@ -672,11 +672,14 @@
         <mxCell id="3tuo6jyJeSJHsHznJ5jw-92" value="15" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="400" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3tuo6jyJeSJHsHznJ5jw-94" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-94" value="&lt;div&gt;64Bytes&lt;/div&gt;&lt;div&gt;Header&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="80" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3tuo6jyJeSJHsHznJ5jw-95" value="Configuration Space" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="335" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-96" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

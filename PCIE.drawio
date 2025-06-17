@@ -503,7 +503,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t5QTA-YFONWCJQ8dmntQ" name="configuration">
-    <mxGraphModel dx="285" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="707" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -793,6 +793,9 @@
         </mxCell>
         <mxCell id="3tuo6jyJeSJHsHznJ5jw-133" value="2&#39;b00" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="710" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-134" value="1&amp;nbsp; &amp;nbsp;0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="690" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

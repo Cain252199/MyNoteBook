@@ -588,7 +588,7 @@
         <mxCell id="3tuo6jyJeSJHsHznJ5jw-32" value="&lt;div&gt;Reserved&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="40" y="360" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3tuo6jyJeSJHsHznJ5jw-33" value="xxx" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-33" value="&lt;div&gt;Capabilities&lt;/div&gt;&lt;div&gt;Pointer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3tuo6jyJeSJHsHznJ5jw-34" value="&lt;div&gt;Reserved&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">

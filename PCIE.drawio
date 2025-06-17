@@ -726,8 +726,40 @@
         <mxCell id="3tuo6jyJeSJHsHznJ5jw-108" value="Data Port(4Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="690" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3tuo6jyJeSJHsHznJ5jw-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3tuo6jyJeSJHsHznJ5jw-109" value="Address Port(4Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="710" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-111" value="0xCF8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-112" value="0xCFC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="690" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-115" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-116" value="Reserved" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="710" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-118" value="31" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-119" value="30" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-120" value="24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-121" value="Bus Number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="710" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-122" value="16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="690" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

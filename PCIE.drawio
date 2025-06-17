@@ -503,7 +503,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t5QTA-YFONWCJQ8dmntQ" name="configuration">
-    <mxGraphModel dx="545" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="285" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -716,6 +716,18 @@
             <mxPoint x="260" y="440" as="sourcePoint" />
             <mxPoint x="320" y="140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-106" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-107" value="&lt;div&gt;IO Map&lt;/div&gt;&lt;div&gt;64KB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="523" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-108" value="Data Port" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="690" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-109" value="Address Port" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

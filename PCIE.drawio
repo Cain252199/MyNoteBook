@@ -594,6 +594,18 @@
         <mxCell id="3tuo6jyJeSJHsHznJ5jw-34" value="&lt;div&gt;Reserved&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="380" width="160" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-35" value="Max_Lat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-36" value="Min_Gnt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-37" value="&lt;div&gt;Interrupt&lt;/div&gt;&lt;div&gt;Pin&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3tuo6jyJeSJHsHznJ5jw-38" value="&lt;div&gt;Interrupt&lt;/div&gt;&lt;div&gt;Line&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -20,15 +20,15 @@
           <mxGeometry x="120" y="10" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-17" value="&lt;div&gt;PEParams(struct)&lt;/div&gt;&lt;div&gt;&lt;i&gt;.c++&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="240" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-18" value="&lt;div&gt;PE(SimObject)&lt;/div&gt;&lt;div&gt;&lt;i&gt;.py&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="MVA4C9VbbbMDx0Rcn064-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="380" as="sourcePoint" />
-            <mxPoint x="210" y="330" as="targetPoint" />
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="210" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-20" value="instantiate()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MVA4C9VbbbMDx0Rcn064-19">
@@ -38,8 +38,8 @@
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.026;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MVA4C9VbbbMDx0Rcn064-17" target="MVA4C9VbbbMDx0Rcn064-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="390" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
+            <mxPoint x="380" y="230" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-23" value="create()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MVA4C9VbbbMDx0Rcn064-21">
@@ -48,7 +48,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-22" value="&lt;div&gt;PE(SimObject)&lt;/div&gt;&lt;div&gt;&lt;i&gt;.c++&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="440" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-24" value="C++的SimObject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="300" height="90" as="geometry" />
@@ -62,8 +62,51 @@
         <mxCell id="MVA4C9VbbbMDx0Rcn064-28" value="封装了仿真模块的生命周期管理、参数传递、统计、检查点、端口系统等核心机制" style="text;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="390" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MVA4C9VbbbMDx0Rcn064-29" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="440" width="60" height="20" as="geometry" />
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-30" value="&lt;div&gt;PE(SimObject)的工作流程&amp;nbsp;&lt;i&gt;『.c++』&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="420" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="320" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MVA4C9VbbbMDx0Rcn064-42" source="MVA4C9VbbbMDx0Rcn064-31" target="MVA4C9VbbbMDx0Rcn064-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-31" value="构造函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MVA4C9VbbbMDx0Rcn064-42">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MVA4C9VbbbMDx0Rcn064-42" source="MVA4C9VbbbMDx0Rcn064-32" target="MVA4C9VbbbMDx0Rcn064-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-32" value="init()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="MVA4C9VbbbMDx0Rcn064-42">
+          <mxGeometry x="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.81;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MVA4C9VbbbMDx0Rcn064-42" source="MVA4C9VbbbMDx0Rcn064-34" target="MVA4C9VbbbMDx0Rcn064-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="20.034482758620925" as="sourcePoint" />
+            <mxPoint x="360.0344827586207" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="20" />
+              <mxPoint x="370" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-34" value="regStats()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="MVA4C9VbbbMDx0Rcn064-42">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MVA4C9VbbbMDx0Rcn064-42" source="MVA4C9VbbbMDx0Rcn064-36" target="MVA4C9VbbbMDx0Rcn064-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-36" value="[initState()/loadState()]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="MVA4C9VbbbMDx0Rcn064-42">
+          <mxGeometry x="240" y="70" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MVA4C9VbbbMDx0Rcn064-42" source="MVA4C9VbbbMDx0Rcn064-38" target="MVA4C9VbbbMDx0Rcn064-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-38" value="resetStats" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="MVA4C9VbbbMDx0Rcn064-42">
+          <mxGeometry x="120" y="70" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-40" value="startup()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="MVA4C9VbbbMDx0Rcn064-42">
+          <mxGeometry y="70" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

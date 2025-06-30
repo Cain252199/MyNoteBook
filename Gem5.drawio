@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="第 1 页" id="-daLCYb_sPlYekwP6ffY">
-    <mxGraphModel dx="900" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="745" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,15 +20,15 @@
           <mxGeometry x="120" y="10" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-17" value="&lt;div&gt;PEParams(struct)&lt;/div&gt;&lt;div&gt;&lt;i&gt;.c++&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="480" width="120" height="40" as="geometry" />
+          <mxGeometry x="240" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-18" value="&lt;div&gt;PE(SimObject)&lt;/div&gt;&lt;div&gt;&lt;i&gt;.py&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="480" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="MVA4C9VbbbMDx0Rcn064-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="500" as="sourcePoint" />
-            <mxPoint x="250" y="450" as="targetPoint" />
+            <mxPoint x="160" y="380" as="sourcePoint" />
+            <mxPoint x="210" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-20" value="instantiate()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MVA4C9VbbbMDx0Rcn064-19">
@@ -38,8 +38,8 @@
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.026;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MVA4C9VbbbMDx0Rcn064-17" target="MVA4C9VbbbMDx0Rcn064-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="510" as="sourcePoint" />
-            <mxPoint x="480" y="500" as="targetPoint" />
+            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-23" value="create()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MVA4C9VbbbMDx0Rcn064-21">
@@ -48,7 +48,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MVA4C9VbbbMDx0Rcn064-22" value="&lt;div&gt;PE(SimObject)&lt;/div&gt;&lt;div&gt;&lt;i&gt;.c++&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="480" width="120" height="40" as="geometry" />
+          <mxGeometry x="440" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-24" value="C++的SimObject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-26" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MVA4C9VbbbMDx0Rcn064-24">
+          <mxGeometry y="30" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-27" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MVA4C9VbbbMDx0Rcn064-24">
+          <mxGeometry y="60" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-28" value="封装了仿真模块的生命周期管理、参数传递、统计、检查点、端口系统等核心机制" style="text;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="390" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVA4C9VbbbMDx0Rcn064-29" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

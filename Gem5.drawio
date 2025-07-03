@@ -634,6 +634,12 @@
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-267" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-268" value="Assign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-269" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

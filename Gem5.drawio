@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.1.6" pages="3">
   <diagram name="SimObject" id="-daLCYb_sPlYekwP6ffY">
     <mxGraphModel dx="900" dy="1311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,33 +124,50 @@
     </mxGraphModel>
   </diagram>
   <diagram id="O8U86OAU40Q0yhcLoDTW" name="第 2 页">
-    <mxGraphModel dx="900" dy="1311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2654" dy="1573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="biRs67wtnWC4MEA77FOY-2" value="ClockObject &lt;i&gt;[.py]&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="biRs67wtnWC4MEA77FOY-2" value="ClockObject &lt;i&gt;[.py]&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="40" width="260" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="biRs67wtnWC4MEA77FOY-3" value="clock_domain =&amp;gt; 默认为上一层的时钟域" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="biRs67wtnWC4MEA77FOY-2">
+        <mxCell id="biRs67wtnWC4MEA77FOY-3" value="clock_domain =&amp;gt; 默认为上一层的时钟域" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="biRs67wtnWC4MEA77FOY-2" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="biRs67wtnWC4MEA77FOY-4" value="power_model =&amp;gt; 默认为空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="biRs67wtnWC4MEA77FOY-2">
+        <mxCell id="biRs67wtnWC4MEA77FOY-4" value="power_model =&amp;gt; 默认为空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="biRs67wtnWC4MEA77FOY-2" vertex="1">
           <mxGeometry y="60" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="biRs67wtnWC4MEA77FOY-5" value="power_state =&amp;gt; 默认为空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="biRs67wtnWC4MEA77FOY-2">
+        <mxCell id="biRs67wtnWC4MEA77FOY-5" value="power_state =&amp;gt; 默认为空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="biRs67wtnWC4MEA77FOY-2" vertex="1">
           <mxGeometry y="90" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="biRs67wtnWC4MEA77FOY-6" value="ClockObject &lt;i&gt;[.cc]&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="biRs67wtnWC4MEA77FOY-6" value="ClockObject &lt;i&gt;[.cc]&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="40" width="430" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="biRs67wtnWC4MEA77FOY-7" value="clockEdge(Cycles n)&amp;nbsp; // 当前tick，之后第n个周期的tick" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="biRs67wtnWC4MEA77FOY-6">
+        <mxCell id="biRs67wtnWC4MEA77FOY-7" value="clockEdge(Cycles n)&amp;nbsp; // 当前tick，之后第n个周期的tick" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="biRs67wtnWC4MEA77FOY-6" vertex="1">
           <mxGeometry y="30" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="biRs67wtnWC4MEA77FOY-8" value="curCycle()&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; // 当前周期编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="biRs67wtnWC4MEA77FOY-6">
+        <mxCell id="biRs67wtnWC4MEA77FOY-8" value="curCycle()&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; // 当前周期编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="biRs67wtnWC4MEA77FOY-6" vertex="1">
           <mxGeometry y="60" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="biRs67wtnWC4MEA77FOY-9" value="nextCycle()&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; // 下个周期的起始Tick" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="biRs67wtnWC4MEA77FOY-6">
+        <mxCell id="biRs67wtnWC4MEA77FOY-9" value="nextCycle()&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; // 下个周期的起始Tick" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="biRs67wtnWC4MEA77FOY-6" vertex="1">
           <mxGeometry y="90" width="430" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iRA8mUDTeifPsG7ISGJM" name="第 3 页">
+    <mxGraphModel dx="885" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-1" value="regA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-2" value="regB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-3" value="regC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="30" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

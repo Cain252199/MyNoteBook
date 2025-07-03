@@ -646,6 +646,27 @@
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-269" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="240" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-272" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-273" value="逻辑赋值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="44" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-274" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="300" as="sourcePoint" />
+            <mxPoint x="700" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-275" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="280" as="sourcePoint" />
+            <mxPoint x="580" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-276" value="时刻前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

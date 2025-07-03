@@ -635,49 +635,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-267" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="80" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="57" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5uzhXt1iGlQLgUxXM9bW-268" target="5uzhXt1iGlQLgUxXM9bW-269">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-268" value="Assign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="137" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-269" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="240" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="217" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-272" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="430" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5uzhXt1iGlQLgUxXM9bW-273" value="逻辑赋值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="44" width="80" height="30" as="geometry" />
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-273" value="连线赋值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="21" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-274" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="300" as="sourcePoint" />
-            <mxPoint x="700" y="300" as="targetPoint" />
+            <mxPoint x="620" y="277" as="sourcePoint" />
+            <mxPoint x="740" y="277" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-275" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="280" as="sourcePoint" />
-            <mxPoint x="580" y="80" as="targetPoint" />
+            <mxPoint x="620" y="257" as="sourcePoint" />
+            <mxPoint x="620" y="57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-276" value="时刻前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="165" width="60" height="30" as="geometry" />
+          <mxGeometry x="560" y="142" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-277" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="319.83" as="sourcePoint" />
-            <mxPoint x="580" y="380" as="targetPoint" />
+            <mxPoint x="620" y="296.83" as="sourcePoint" />
+            <mxPoint x="620" y="357" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-278" value="时刻后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="329.83" width="60" height="30" as="geometry" />
+          <mxGeometry x="560" y="306.83" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5uzhXt1iGlQLgUxXM9bW-279" value="TrancFunc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="319.83" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="296.83" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uzhXt1iGlQLgUxXM9bW-280" value="寄存器赋值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="350" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

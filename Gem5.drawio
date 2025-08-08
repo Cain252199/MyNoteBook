@@ -8558,10 +8558,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JmiD_y3mA6GMoEP1IYJk" name="MinorCPU">
-    <mxGraphModel dx="1059" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="871" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v4YLqtATvF85vyOW-3yZ-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="660" height="380" as="geometry" />
+        </mxCell>
         <mxCell id="v4YLqtATvF85vyOW-3yZ-1" value="fetch1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="40" width="40" height="80" as="geometry" />
         </mxCell>
